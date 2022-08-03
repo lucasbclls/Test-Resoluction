@@ -72,7 +72,7 @@ a {
 
 .butons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 30px;
 
 
@@ -84,16 +84,30 @@ a {
     margin-bottom: 50px;
     margin-top: 40px;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 25px;
     border-radius: 30px;
 
 }
 
-#idMonthly {
-    padding-right: 40px;
-    padding-left: 40px;
+#idMonthly{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 10px;
 
 }
+
+#idSemesterly  {
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#idYearly {
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 
 #selectPlan {
     display: flex;
@@ -107,7 +121,6 @@ a {
 #yearsPrince {
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-size: 23px;
     font-weight: bolder;
 }
 
@@ -116,7 +129,7 @@ a {
 .yearsDiscriptions {
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+
     font-weight: normal;
 }
 
