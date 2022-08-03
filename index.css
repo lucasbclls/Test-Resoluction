@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+/*START CSS HEADER*/
+
+svg {
+
+    color: white;
+    background-color: black;
+    width: 20px;
+    height: 40px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: xx-small;
+    display: flex;
+    flex-direction: row;
+    padding-right: 78%;
+
+}
+
+/* END CSS HEADER*/
+
+/*  START CSS MAIN */
+
+
+.main {
+
+    background-color: #f1f1f1;
+    display: flex;
+
+    padding-left: 30%;
+
+}
+
+.col-sm {
+
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+
+
+}
+
+#subTitleform {
+    font-size: 20px;
+    display: flex;
+    padding-top: 30px;
+
+}
+
+#titleForm {
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+/* START CSS BUTTONS PLANS */
+
+
+
+.butons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+
+}
+
+
+#buy {
+
+    margin-bottom: 50px;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+
+}
+
+#idMonthly {
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+#selectPlan {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#monthlyPrince,
+#semesterlyPrince,
+#yearsPrince {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.monthlyDiscriptions,
+.semesterlyDiscriptions,
+.yearsDiscriptions {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
+/* END CSS BUTTONS PLANS */
+
+
+
+/*  END CSS MAIN */
+
+
+
+
+/* START CSS FOOTER*/
+
+
+footer {
+    position: static;
+    top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer {
+    background-color: white;
+    color: #86868b;
+}
+
+
+
+.description {
+
+    display: flex;
+    padding-left: 16.3%;
+}
+
+#br {
+    padding-left: 70%;
+}
+
+h3 {
+    font-size: 1px
+}
+
+/* END CSS FOOTER*/
+
+
+/* BUTTONS RESPONSIVE IN COLLUM  */
+
+@media(max-width:1400px) {
+    .butons {
+
+        flex-direction: column;
+        justify-content: space-evenly;
+
+
+    }
+}
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
